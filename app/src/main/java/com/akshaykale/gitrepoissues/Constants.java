@@ -22,7 +22,7 @@ public class Constants {
     public static String issueBaseURL = "https://api.github.com/repos/";
 
     public static String generateIssueURL (){
-        return issueBaseURL + username +"/"+ repo +"/issues?sort="+SORT;
+        return issueBaseURL + username +"/"+ repo +"/issues?sort="+SORT+"&state=open";
     }
 
     public static String generateCommentsURL (int number){

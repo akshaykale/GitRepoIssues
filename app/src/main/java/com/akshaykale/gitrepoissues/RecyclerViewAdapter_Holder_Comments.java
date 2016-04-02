@@ -66,9 +66,9 @@ public class RecyclerViewAdapter_Holder_Comments extends RecyclerView.Adapter<Re
         //set date on which article posted
         if (holder.tv_time != null) {
             if (current.getmUpdatedAt() != null)
-                holder.tv_time.setText("" + current.getmUpdatedAt());
+                holder.tv_time.setText("" + current.getmUpdatedAt().toString().substring(0,20));
             else
-                holder.tv_time.setText("" + current.getmCreatedAt());
+                holder.tv_time.setText("" + current.getmCreatedAt().toString().substring(0,20));
         }
 
 

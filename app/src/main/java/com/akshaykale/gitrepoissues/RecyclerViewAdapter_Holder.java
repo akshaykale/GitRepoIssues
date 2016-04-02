@@ -60,7 +60,7 @@ public class RecyclerViewAdapter_Holder extends RecyclerView.Adapter<RecyclerVie
         if(holder.tv_desc!=null) holder.tv_desc.setText(body);
 
         //set date on which issue last updated
-        if(holder.tv_time!=null)holder.tv_time.setText(""+current.getmUpdatedAt());
+        if(holder.tv_time!=null)holder.tv_time.setText(""+current.getmUpdatedAt().toString().substring(0,20));
 
 
 

@@ -13,6 +13,7 @@
         <activity
             android:name=".MainActivity"
             android:label="Issues"
+            android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +22,7 @@
         </activity>
 
         <activity android:name=".CommentsActivity"
+            android:configChanges="orientation|screenSize"
             android:label="Comments"></activity>
 
     </application>
