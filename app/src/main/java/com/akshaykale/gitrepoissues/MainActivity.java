@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity
         if (mProgressDialog == null) {
             mProgressDialog = new ProgressDialog(this);
             mProgressDialog.setCancelable(false);
-            mProgressDialog.setMessage("Loading...");
+            mProgressDialog.setMessage("Loading open issues...");
             mProgressDialog.setIndeterminate(true);
         }
         mProgressDialog.show();
