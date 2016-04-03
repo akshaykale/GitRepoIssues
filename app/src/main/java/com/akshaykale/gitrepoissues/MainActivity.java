@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity
             final Dialog d = new Dialog(MainActivity.this);
             d.setContentView(R.layout.change_repo_layout);
             d.setCancelable(true);
+            d.setTitle("Chenge repo");
             final EditText et_username = (EditText) d.findViewById(R.id.et_username);
             final EditText et_repo = (EditText) d.findViewById(R.id.et_repo);
             Button bt_change = (Button) d.findViewById(R.id.bt_change);
